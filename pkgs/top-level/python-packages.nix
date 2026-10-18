@@ -12510,6 +12510,8 @@ self: super: with self; {
 
   ollama = callPackage ../development/python-modules/ollama { };
 
+  ome-types = callPackage ../development/python-modules/ome-types { };
+
   ome-zarr = callPackage ../development/python-modules/ome-zarr { };
 
   ome-zarr-models = callPackage ../development/python-modules/ome-zarr-models { };
