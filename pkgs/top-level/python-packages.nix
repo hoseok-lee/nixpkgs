@@ -22851,6 +22851,8 @@ self: super: with self; {
 
   xarray-einstats = callPackage ../development/python-modules/xarray-einstats { };
 
+  xarray-spatial = callPackage ../development/python-modules/xarray-spatial { };
+
   xattr = callPackage ../development/python-modules/xattr { };
 
   xboxapi = callPackage ../development/python-modules/xboxapi { };
