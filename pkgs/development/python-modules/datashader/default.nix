@@ -61,6 +61,11 @@ buildPythonPackage rec {
     hypothesis
   ];
 
+  pytestFlags = [
+    # pytest 9 errors on non-Collection iterables passed to parametrize
+    "-Wignore::pytest.PytestRemovedIn10Warning"
+  ];
+
   disabledTestPaths = [
     "scripts/download_data.py"
   ];
