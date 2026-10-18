@@ -2992,6 +2992,8 @@ self: super: with self; {
 
   celery-types = callPackage ../development/python-modules/celery-types { };
 
+  celldancer = callPackage ../development/python-modules/celldancer { };
+
   cement = callPackage ../development/python-modules/cement { };
 
   cemm = callPackage ../development/python-modules/cemm { };
