@@ -2443,6 +2443,8 @@ self: super: with self; {
 
   biocutils = callPackage ../development/python-modules/biocutils { };
 
+  biofluff = callPackage ../development/python-modules/biofluff { };
+
   biom-format = callPackage ../development/python-modules/biom-format { };
 
   biopandas = callPackage ../development/python-modules/biopandas { };
