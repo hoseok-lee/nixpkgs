@@ -13188,6 +13188,8 @@ self: super: with self; {
 
   palace = callPackage ../development/python-modules/palace { };
 
+  palantir = callPackage ../development/python-modules/palantir { };
+
   palettable = callPackage ../development/python-modules/palettable { };
 
   pallets-sphinx-themes = callPackage ../development/python-modules/pallets-sphinx-themes { };
