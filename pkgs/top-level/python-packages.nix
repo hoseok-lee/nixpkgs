@@ -2994,6 +2994,8 @@ self: super: with self; {
 
   celldancer = callPackage ../development/python-modules/celldancer { };
 
+  celltypist = callPackage ../development/python-modules/celltypist { };
+
   cement = callPackage ../development/python-modules/cement { };
 
   cemm = callPackage ../development/python-modules/cemm { };
