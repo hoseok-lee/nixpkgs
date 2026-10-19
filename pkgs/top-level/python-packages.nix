@@ -10750,6 +10750,8 @@ self: super: with self; {
 
   meinheld = callPackage ../development/python-modules/meinheld { };
 
+  mellon = callPackage ../development/python-modules/mellon { };
+
   melnor-bluetooth = callPackage ../development/python-modules/melnor-bluetooth { };
 
   memestra = callPackage ../development/python-modules/memestra { };
