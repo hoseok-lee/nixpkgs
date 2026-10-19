@@ -17970,6 +17970,8 @@ self: super: with self; {
 
   readerwriterlock = callPackage ../development/python-modules/readerwriterlock { };
 
+  readfcs = callPackage ../development/python-modules/readfcs { };
+
   readlike = callPackage ../development/python-modules/readlike { };
 
   readmdict = callPackage ../development/python-modules/readmdict { };
