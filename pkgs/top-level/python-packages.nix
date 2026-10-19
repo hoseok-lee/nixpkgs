@@ -6758,6 +6758,8 @@ self: super: with self; {
 
   genome-collector = callPackage ../development/python-modules/genome-collector { };
 
+  genomepy = callPackage ../development/python-modules/genomepy { };
+
   genpy = callPackage ../development/python-modules/genpy { };
 
   genshi = callPackage ../development/python-modules/genshi { };
