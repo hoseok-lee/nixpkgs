@@ -22302,6 +22302,8 @@ self: super: with self; {
 
   velbus-aio = callPackage ../development/python-modules/velbus-aio { };
 
+  velocyto = callPackage ../development/python-modules/velocyto { };
+
   venstarcolortouch = callPackage ../development/python-modules/venstarcolortouch { };
 
   venusian = callPackage ../development/python-modules/venusian { };
