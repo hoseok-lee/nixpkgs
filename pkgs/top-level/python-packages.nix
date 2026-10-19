@@ -6594,6 +6594,8 @@ self: super: with self; {
 
   ftfy = callPackage ../development/python-modules/ftfy { };
 
+  ftpretty = callPackage ../development/python-modules/ftpretty { };
+
   ftputil = callPackage ../development/python-modules/ftputil { };
 
   fugashi = callPackage ../development/python-modules/fugashi { };
