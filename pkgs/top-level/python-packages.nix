@@ -11448,6 +11448,8 @@ self: super: with self; {
 
   munkres = callPackage ../development/python-modules/munkres { };
 
+  muon = callPackage ../development/python-modules/muon { };
+
   muon-optimizer = callPackage ../development/python-modules/muon-optimizer { };
 
   murmurhash = callPackage ../development/python-modules/murmurhash { };
