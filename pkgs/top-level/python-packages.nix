@@ -11216,6 +11216,8 @@ self: super: with self; {
 
   moehlenhoff-alpha2 = callPackage ../development/python-modules/moehlenhoff-alpha2 { };
 
+  mofapy2 = callPackage ../development/python-modules/mofapy2 { };
+
   mohawk = callPackage ../development/python-modules/mohawk { };
 
   molbar = callPackage ../development/python-modules/molbar { };
