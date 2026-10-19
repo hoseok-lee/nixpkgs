@@ -7008,6 +7008,8 @@ self: super: with self; {
 
   goalzero = callPackage ../development/python-modules/goalzero { };
 
+  goatools = callPackage ../development/python-modules/goatools { };
+
   gocardless-pro = callPackage ../development/python-modules/gocardless-pro { };
 
   goocalendar = callPackage ../development/python-modules/goocalendar { };
